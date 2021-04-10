@@ -1,6 +1,6 @@
 <?php
 include_once("GYM.HTML");
-
+include 'CSS/GYM.css';
 
 $name=$email=$feed="";
 if($_SERVER["REQUEST_METHOD"]=="POST")
@@ -8,6 +8,4 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 $email=$_POST["noemail"];
 $feed=$_POST["views"];
 ?>
-<style>
-<?php include 'CSS/GYM.css'; ?>
-</style>
+
