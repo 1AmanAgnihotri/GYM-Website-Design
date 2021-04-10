@@ -542,7 +542,7 @@ font-weight: 700;
 <li><a   href="#pricing">PRICING</a></li>
 <li><a href="#contact">CONTACT</a></li>
 </ul>
-<button class="enr">ENROLL</button>
+<button class="enr"><a href="" style="color: black; font-size: 10px; text-align: center;">ENROLL</a></button>
 <a type="button"><i class="fas fa-bars" style="font-size: 22px; display: none;"></i></a>
 </div>
 <section class="HOME" id="home">
