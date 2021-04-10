@@ -1,7 +1,7 @@
 <?php
 
 include_once("GYM.HTML");
-include_once("GYM.CSS");
+<link rel="stylesheet" href="CSS/GYM.css" type="text/css">
 
 
 
