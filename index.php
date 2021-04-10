@@ -1,7 +1,8 @@
 <?php
+<head>
+include("GYM.css");
+</head>
 include_once("GYM.HTML");
-include 'CSS/GYM.css';
-
 $name=$email=$feed="";
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {$name=htmlspecialchars($_POST["fname"]);
