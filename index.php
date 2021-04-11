@@ -527,7 +527,7 @@ font-family: 'Archivo', sans-serif;
 font-size: 14px;
 font-weight: 700;
 }
-footer>i:hover a 
+i:hover a 
 {  color:#d7fc03;
     cursor:pointer;
     }
