@@ -75,8 +75,8 @@ text-decoration: none;
 position: absolute;
 }
 .logo{
-width: 100px;
-height: 90px;
+width: 70px;
+height: 70px;
 position: absolute;
 transform: translateX(-900%);
 top: 16%;
@@ -533,7 +533,7 @@ font-weight: 700;
 <body>
 <div class="navbar" target=".navlinks">
 <div class="logo">
-    <img src="https://brandslogos.com/wp-content/uploads/images/large/golds-gym-logo-black-and-white-2.png">
+    <img src="https://seeklogo.com/images/P/p-a-the-monster-gym-logo-CB8D13BD82-seeklogo.com.png">
 </div>
 
     <ul class="navlinks">
