@@ -533,7 +533,7 @@ font-weight: 700;
 <body>
 <div class="navbar" target=".navlinks">
 <div class="logo">
-    <img src="https://static.vecteezy.com/system/resources/thumbnails/000/595/377/small/04012019-07.jpg">
+    <img src="https://brandslogos.com/wp-content/uploads/images/large/golds-gym-logo-black-and-white-2.png">
 </div>
 
     <ul class="navlinks">
