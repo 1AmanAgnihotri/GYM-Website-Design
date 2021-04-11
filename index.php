@@ -527,7 +527,7 @@ font-family: 'Archivo', sans-serif;
 font-size: 14px;
 font-weight: 700;
 }
-footer:hover i
+footer:hover a i
 {  color:#d7fc03;
     
     }
@@ -625,8 +625,8 @@ help, so please call us to discuss your needs.</p>
 </section>
 <footer class="last">
    <i class="fab fa-instagram" style="font-size: 25px;transform: translate(2100%,100%);"><a href="https://www.instagram.com/"></a></i>
-    <i class="fab fa-twitter" style="font-size: 25px;transform: translate(3000%,100%);"><a href="https://www.twitter.com/"></a></i>
-    <i class="fab fa-facebook-f"  style="font-size: 25px;transform: translate(1500%,100%);"><a href="https://www.facebook.com/"></a></i>
+    <i class="fab fa-twitter" style="font-size: 25px;transform: translate(2700%,100%);"><a href="https://www.twitter.com/"></a></i>
+    <i class="fab fa-facebook-f"  style="font-size: 25px;transform: translate(2800%,100%);"><a href="https://www.facebook.com/"></a></i>
     <i class="far fa-copyright" style="font-size: 15px;transform: translate(-2400%,150%);"></i>
     
     <a href="/">All Rights Reserved</a>
