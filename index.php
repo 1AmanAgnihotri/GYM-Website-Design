@@ -529,7 +529,7 @@ font-weight: 700;
 }
 footer>i:hover a 
 {  color:#d7fc03;
-    curosr:pointer;
+    cursor:pointer;
     }
     
     
