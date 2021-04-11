@@ -75,10 +75,10 @@ text-decoration: none;
 position: absolute;
 }
 .logo{
-width: 70px;
-height: 70px;
+width: 75px;
+height: 60px;
 position: absolute;
-transform: translateX(-900%);
+transform: translateX(-800%);
 top: 16%;
 }
 .logo>img
