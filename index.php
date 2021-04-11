@@ -75,8 +75,8 @@ text-decoration: none;
 position: absolute;
 }
 .logo{
-width: 60px;
-height: 80px;
+width: 100px;
+height: 90px;
 position: absolute;
 transform: translateX(-900%);
 top: 16%;
