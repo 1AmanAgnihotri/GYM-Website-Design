@@ -1,5 +1,6 @@
 # GYM-Website-Design-RWD-
-Deisgn is still in progess and mobile accessibility will be added in few days.   
+Website is Live Here -> https://erp3-app.herokuapp.com/
+Deisgn is still in progess and mobile responsiveness will be added in few days.   
 1. THIS WEBSITE IS DESIGNED USING HTML AND CSS ONLY.
 2. YOU WILL FIND HOVERING EFFECTS,TRANSITION PROPERTIES.
 3. THIS WEBSITE DESIGN HAS 4 SECTIONS FOR NAVIGATION ON A SINGLE PAGE
