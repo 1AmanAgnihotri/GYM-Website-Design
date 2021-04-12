@@ -117,19 +117,23 @@ overflow: hidden;
 z-index: 100;
 
 }
-.enr{ position: absolute;
-background-color: rgba(255, 255, 255, 0);
-transform: translateX(470%);
-text-emphasis-color:rgb(43, 43, 143) ;
-border: 2px black solid;
-width: 120px;
-font-size: 13px;
-font-family: 'Arial', sans-serif;
-font-weight: 500;
-padding: 0px 6px;
-border-radius: 30px;
-letter-spacing: 2px;
-height: 38px;
+.enr{background: #c483d4;
+  background-image: -webkit-linear-gradient(top, #c483d4, #9e2bb8);
+  background-image: -moz-linear-gradient(top, #c483d4, #9e2bb8);
+  background-image: -ms-linear-gradient(top, #c483d4, #9e2bb8);
+  background-image: -o-linear-gradient(top, #c483d4, #9e2bb8);
+  background-image: linear-gradient(to bottom, #c483d4, #9e2bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 20px 6px 20px;
+  text-decoration: none;
+width: 80px;
+height:18px;
+transform: translate(450%,0);
 }
 
 
