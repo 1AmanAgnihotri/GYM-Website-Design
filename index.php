@@ -40,7 +40,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">   
 <link rel="stylesheet" href="GYM.css">
 <title>GYM</title>
-<style>html{
+<style>
+html{
 height: 2500px;
 
 
@@ -49,17 +50,6 @@ height: 2500px;
 padding: 0;
 margin: 0;
 }
-#enrol{
-width: 0;
-height: 0;
-top: 0;
-left: 0;
-display: none;
-overflow: hidden;
-}
-
-
-
 #home{
 transform: translateY(100px);
 background-color: rgb(255, 255, 255);
@@ -75,18 +65,16 @@ text-decoration: none;
 position: absolute;
 }
 .logo{
-width: 75px;
-height: 60px;
-position: absolute;
-transform: translateX(-800%);
-top: 16%;
+width: 80px;
+height: 80px;
+transform: translateX(-200%);
+top: 3%;
 }
 .logo>img
 {
 width: 100%;
 height: 100%;
-border-radius: 5%;
-
+object-fit: fill;
 }
 
 
@@ -115,9 +103,9 @@ align-items: center;
 padding-top:20px;
 overflow: hidden;
 z-index: 100;
-
 }
-.enr{background: #c483d4;
+.enr {
+  background: #c483d4;
   background-image: -webkit-linear-gradient(top, #c483d4, #9e2bb8);
   background-image: -moz-linear-gradient(top, #c483d4, #9e2bb8);
   background-image: -ms-linear-gradient(top, #c483d4, #9e2bb8);
@@ -136,6 +124,16 @@ height:18px;
 transform: translate(450%,0);
 }
 
+.enr:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 
 
@@ -152,16 +150,6 @@ padding: 5px;
 font-size: 15px;
 }
 
-.enr:hover
-{  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-    cursor:pointer;
-}
 
 
 .hero{
@@ -417,17 +405,32 @@ letter-spacing: 4px;
 }
 
 #bs
-{ color: white;
-margin-top: 30px;
-background-color: rgb(39, 52, 168);
-font-family: 'Darker Grotesque', sans-serif;
-font-weight: 600;
-letter-spacing: 4px;
-width: 120px;
-font-size:20px;
-border-radius: 20px;
-height: 40px;
-cursor: pointer;
+ {width: 1000px;
+   height: 40px;
+  background: #c1de1f;
+  background-image: -webkit-linear-gradient(top, #c1de1f, #719c49);
+  background-image: -moz-linear-gradient(top, #c1de1f, #719c49);
+  background-image: -ms-linear-gradient(top, #c1de1f, #719c49);
+  background-image: -o-linear-gradient(top, #c1de1f, #719c49);
+  background-image: linear-gradient(to bottom, #c1de1f, #719c49);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #381313;
+  font-size: 10px;
+  padding: 6px 10px 6px 10px;
+  text-decoration: none;
+ }
+#bs:hover {
+  background: #fcd63c;
+  background-image: -webkit-linear-gradient(top, #fcd63c, #b8375e);
+  background-image: -moz-linear-gradient(top, #fcd63c, #b8375e);
+  background-image: -ms-linear-gradient(top, #fcd63c, #b8375e);
+  background-image: -o-linear-gradient(top, #fcd63c, #b8375e);
+  background-image: linear-gradient(to bottom, #fcd63c, #b8375e);
+  text-decoration: none;
+  cursor: pointer;
 }
 #contact
 {
@@ -532,20 +535,18 @@ font-family: 'Archivo', sans-serif;
 font-size: 14px;
 font-weight: 700;
 }
-i:hover a 
-{  color:#d7fc03;
-    cursor:pointer;
-    }
-    
-    
-    
-</style>
-</head>
+i:hover 
+{ cursor: pointer;
+   color: yellow;
+
+}
+        </style>
+        </head>
 
 <body>
 <div class="navbar" target=".navlinks">
 <div class="logo">
-    <img src="https://seeklogo.com/images/P/p-a-the-monster-gym-logo-CB8D13BD82-seeklogo.com.png">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/000/595/377/small/04012019-07.jpg">
 </div>
 
     <ul class="navlinks">
@@ -554,7 +555,7 @@ i:hover a
 <li><a   href="#pricing">PRICING</a></li>
 <li><a href="#contact">CONTACT</a></li>
 </ul>
-<button class="enr"><a href="" style="color: black; font-size: 10px; text-align: center;">ENROLL</a></button>
+<a href="" class="enr" onclick="prompt('Enter Your Gmail ID'); prompt('Enter Your Phone Number');alert('Thank You For The Details,We Will Contact You Shortly');">ENROLL</a>
 <a type="button"><i class="fas fa-bars" style="font-size: 22px; display: none;"></i></a>
 </div>
 <section class="HOME" id="home">
@@ -596,7 +597,7 @@ help, so please call us to discuss your needs.</p>
     <li class="e1">Coupons</li>
     <li class="e1">Extra Perks</li>
     <div class="b1">$600</div>
-    <button id="bs" type="submit" onclick="alert('Thanks For Purchasing Our Membership');">BUY</button>
+     <a href="" id="bs">BUY</a>   
 </ul>
 </div>
 <div>
@@ -609,11 +610,10 @@ help, so please call us to discuss your needs.</p>
             <li class="e1">Pool Access(Limited)</li>
 
             <div class="b1">$450</div>
-            <button id="bs" type="submit" onclick="alert('Thanks For Purchasing Our Membership');">BUY</button>
+            <a href="" id="bs">BUY</a>
         </ul>
 </div>
 </section>
-
 <section class="CONTACT" id="contact">
 <h1 id="cont">CONTACT US</h1>
 <div class="loc">
@@ -629,14 +629,11 @@ help, so please call us to discuss your needs.</p>
 </div>
 </section>
 <footer class="last">
-   <i class="fab fa-instagram" style="font-size: 25px;transform: translate(2100%,100%);"><a href="https://www.instagram.com/"></a></i>
-    <i class="fab fa-twitter" style="font-size: 25px;transform: translate(2500%,100%);"><a href="https://www.twitter.com/"></a></i>
-    <i class="fab fa-facebook-f"  style="font-size: 25px;transform: translate(2800%,100%);"><a href="https://www.facebook.com/"></a></i>
-    <i class="far fa-copyright" style="font-size: 15px;transform: translate(-2400%,150%);"></i>
-    
-    <a href="/">All Rights Reserved</a>
+   <i class="fab fa-instagram" style="font-size: 25px;transform: translate(2100%,100%);"></i>
+    <i class="fab fa-twitter" style="font-size: 25px;transform: translate(3000%,100%);"></i>
+    <i class="fab fa-facebook-f"style="font-size: 25px;transform: translate(5400%,100%);"></i>
+<i class="far fa-copyright" style="font-size: 15px;transform: translate(-2400%,150%);"> </i>
+<a href="/">All Rights Reserved</a>
 </footer>
 </body>
 </html>
-
-
