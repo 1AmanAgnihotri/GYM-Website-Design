@@ -629,7 +629,7 @@ help, so please call us to discuss your needs.</p>
 </div>
 </section>
 <footer class="last">
-   <i class="fab fa-instagram" style="font-size: 25px;transform: translate(2600%,100%);"></i>
+   <i class="fab fa-instagram" style="font-size: 25px;transform: translate(2800%,100%);"></i>
     <i class="fab fa-twitter" style="font-size: 25px;transform: translate(3000%,100%);"></i>
     <i class="fab fa-facebook-f"style="font-size: 25px;transform: translate(5400%,100%);"></i>
 <i class="far fa-copyright" style="font-size: 15px;transform: translate(-2400%,150%);"> </i>
