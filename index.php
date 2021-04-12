@@ -153,13 +153,14 @@ font-size: 15px;
 }
 
 .enr:hover
-{ color: rgb(0, 0, 0);
-
-background:linear-gradient(to bottom,rgba(255, 255, 255, 0),rgba(29, 175, 194, 0.459));
-transition: all ease-in-out 0.3s;
-box-shadow: 0 0 0 0 ;
-border-radius: 30px;
-cursor:pointer ;
+{  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+    cursor:pointer;
 }
 
 
